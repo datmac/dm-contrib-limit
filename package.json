@@ -18,7 +18,6 @@
   "dependencies": {
     "mill-core": "latest",
     "segmenter": "latest",
-    "async": "latest",
     "debug": "latest"
   },
   "devDependencies": {

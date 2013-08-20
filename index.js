@@ -3,7 +3,6 @@
 var path = require('path')
 , basename = path.basename(path.dirname(__filename))
 , debug = require('debug')('mill:contrib:' + basename)
-, async = require('async')
 , Segmenter = require('segmenter')
 , Transform = require("stream").Transform
 ;
