@@ -1,0 +1,75 @@
+{
+  "author" : {
+    "name" : "core team"
+  },
+ "title": {
+    "fr" : "Filtrer ou ignorer des lignes",
+    "en" : "Select or ignore rows from a certain offset" 
+  },
+  "description": {
+    "fr" : "Sélectionne ou non les N premières lignes d'un flux au format texte, à partir d'un postion donnée",
+    "en" : "Select or not the first **N** lines of a text format stream from a specific given offset"
+  },
+  "parameters" : {
+    "lines":{
+      "alias": "l",
+      "type": "number",
+      "required": false,
+      "default": 10,
+      "size": "medium",
+      "pattern": "[0-9]+",
+      "maxlength": "",
+      "label": {
+        "fr" : "Nombre de lignes à sélectionner ou à filtrer",
+        "en" : "Number of rows to select or filter"
+      }
+    },
+    "offset":{
+      "alias": "o",
+      "type": "number",
+      "required": false,
+      "default": 0,
+      "size": "medium",
+      "pattern": "[0-9]+",
+      "maxlength": "",
+      "label": {
+        "fr" : "La position de la première ligne à traiter",
+        "en" : "The offset of the first row to select or filter"
+      }
+    },
+    "invert": {
+      "alias": "i",
+      "type": "boolean",
+      "required": false,
+      "default": false,
+      "size": "medium",
+      "pattern": "",
+      "maxlength": "",
+      "label": {
+        "fr": "Inverser",
+        "en": "Invert"
+      },
+      "help": {
+        "fr": "Inverser la séléction en ignorant les premières lignes séléctionnées",
+        "en": "Invert the sense of selecting, to ignore the first rows"
+      }
+    },
+    "delimiter": {
+      "alias": "d",
+      "type": "text",
+      "required": false,
+      "default": "\n",
+      "size": "small",
+      "pattern": "",
+      "maxlength": "",
+      "label": {
+        "fr": "Delimiteur",
+        "en": "Delimiter"
+      },
+      "help": {
+        "fr": "Un ou plusieurs caractères séparant des portions de texte, typiquement une ligne de texte se finissant par [un caractère de fin de ligne](https://fr.wikipedia.org/wiki/Fin_de_ligne).",
+        "en": "A special character or sequence of characters signifying the end of a of text segment. For example [newline](https://en.wikipedia.org/wiki/Newline)"
+      }
+    }
+  }
+}

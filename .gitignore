@@ -1,0 +1,5 @@
+*.swp
+*.env
+public/stylesheets/*.css
+necklaces/*-*.json
+*.swo
