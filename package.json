@@ -30,5 +30,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/milljs/mill-contrib-limit/issues"
+  },
+  "bin" : {
+    "mill-contrib-limit": "./cli.js"
   }
 }
