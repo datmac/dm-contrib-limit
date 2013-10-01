@@ -1,2 +1,2 @@
-mill-contrib-limit
+dm-contrib-limit
 ==================
