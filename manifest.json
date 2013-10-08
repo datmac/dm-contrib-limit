@@ -1,11 +1,8 @@
 {
   "id" : "limit",
-  "author" : {
-    "name" : "core team"
-  },
- "title": {
+  "title": {
     "fr" : "Filtrer ou ignorer des lignes",
-    "en" : "Select or ignore rows from a certain offset" 
+    "en" : "Select or ignore rows from a certain offset"
   },
   "description": {
     "fr" : "Sélectionne ou non les N premières lignes d'un flux au format texte, à partir d'un postion donnée",
